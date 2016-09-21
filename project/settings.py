@@ -71,7 +71,6 @@ TEMPLATES = [
         },
     },
 ]
-print TEMPLATES
 WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
