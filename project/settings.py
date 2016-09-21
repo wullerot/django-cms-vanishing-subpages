@@ -56,7 +56,7 @@ TEMPLATES = [
         'DIRS': [],
         'APP_DIRS': True,
         'DIRS': [
-            os.path.join(BASE_DIR, '..', 'templates'),
+            os.path.join(BASE_DIR, 'templates'),
         ],
         'OPTIONS': {
             'context_processors': [
@@ -71,6 +71,7 @@ TEMPLATES = [
         },
     },
 ]
+print TEMPLATES
 WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
